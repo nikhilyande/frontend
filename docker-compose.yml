@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  frontend:
+    image: nikhilyande/frontend:latest
+    ports:
+      - "3000:3000"
