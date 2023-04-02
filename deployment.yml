@@ -14,9 +14,9 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: your-frontend-image:latest
+        image: nikhilyande/frontend:latest
         ports:
-        - containerPort: 3000  # adjust as needed
+        - containerPort: 3000
 
 ---
 
